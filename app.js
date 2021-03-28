@@ -41,13 +41,48 @@ var y = 1;
 console.log(x == y);
 
 
-var x = prompt('enter your age')
+// var x = prompt('enter your age')
 
-if (x >= 18 && x < 35) {
-alert('welcome to my website')
+// if (x >= 18 && x < 35) {
+// alert('welcome to my website')
     
-} else if (x < 18 || x > 35) {
-    alert('Sorry your not allowed')
-}else {
-    alert('have a nice day')
+// } else if (x < 18 || x > 35) {
+//     alert('Sorry your not allowed')
+// }else {
+//     alert('have a nice day')
+// }
+
+// validation 
+//  var welcome = prompt('Say Hi to enter');
+//  var userInput = 'Hi';
+
+// while(welcome !== userInput){ // validation 
+//     welcome = prompt('Please Say Hi to enter the site')
+// }
+
+var favMovie = prompt('Whats your favourite Movie !','intersteller , inciption');
+     
+while(favMovie !== 'intersteller' && favMovie !== 'inciption'){
+
+    favMovie = prompt('please enter on of the following! intersteller or inciption');
 }
+
+ var movieNum = prompt('How many intersteller or inciption would you like to see?');
+
+
+var image = ''; 
+// undifined
+
+// declaring a variable 
+            
+for(var i = 1 ; i <=movieNum; i++ ){
+    if(favMovie === 'intersteller'){
+        image = image + '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3avP9gpf3XDKfaKkcSvlOMDvSHHIVPsyiw&usqp=CAU"/>';
+    }else if(favMovie === 'inciption'){
+        image = image + '<img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"/>';
+    }
+}
+console.log(image);
+document.write(image); // to show the image!
+document.write(' Your image is repated ' , movieNum , ' times');
+
