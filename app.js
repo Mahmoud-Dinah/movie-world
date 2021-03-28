@@ -39,3 +39,15 @@ var x = 3;
 var y = 1;
 
 console.log(x == y);
+
+
+var x = prompt('enter your age')
+
+if (x >= 18 && x < 35) {
+alert('welcome to my website')
+    
+} else if (x < 18 || x > 35) {
+    alert('Sorry your not allowed')
+}else {
+    alert('have a nice day')
+}
