@@ -20,25 +20,25 @@
 //     alert(' Welcome Anyway')
 // }
 
-var input = document.getElementById('color');
-var button = document.querySelector('button');
-button.addEventListener('click', function( event ) {
-   event.preventDefault();    
-   var color = input.value;
-   document.body.style.backgroundColor = color;
-});
+// var input = document.getElementById('color');
+// var button = document.querySelector('button');
+// button.addEventListener('click', function( event ) {
+//    event.preventDefault();    
+//    var color = input.value;
+//    document.body.style.backgroundColor = color;
+// });
 
-function changebackground(){
-    var url = document.getElementById('bgchanger').value;
-    document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + url + "')";
-}
+// function changebackground(){
+//     var url = document.getElementById('bgchanger').value;
+//     document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + url + "')";
+// }
 
 
-var x = 3; 
+// var x = 3; 
 
-var y = 1;
+// var y = 1;
 
-console.log(x == y);
+// console.log(x == y);
 
 
 // var x = prompt('enter your age')
@@ -60,29 +60,39 @@ console.log(x == y);
 //     welcome = prompt('Please Say Hi to enter the site')
 // }
 
-var favMovie = prompt('Whats your favourite Movie !','intersteller , inciption');
-     
+// function 1
+function chooseOne(){
+
+    var favMovie = prompt('Whats your favourite Movie !','intersteller , inciption');
+
 while(favMovie !== 'intersteller' && favMovie !== 'inciption'){
 
     favMovie = prompt('please enter on of the following! intersteller or inciption');
 }
-
- var movieNum = prompt('How many intersteller or inciption would you like to see?');
-
-
-var image = ''; 
-// undifined
-
-// declaring a variable 
-            
-for(var i = 1 ; i <=movieNum; i++ ){
-    if(favMovie === 'intersteller'){
-        image = image + '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3avP9gpf3XDKfaKkcSvlOMDvSHHIVPsyiw&usqp=CAU"/>';
-    }else if(favMovie === 'inciption'){
-        image = image + '<img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"/>';
-    }
 }
-console.log(image);
-document.write(image); // to show the image!
-document.write(' Your image is repated ' , movieNum , ' times');
+chooseOne()
 
+
+// var movieNum = prompt('How many intersteller or inciption would you like to see?');
+
+// var image = ''; 
+// // undifined
+
+// // declaring a variable 
+            
+// for(var i = 1 ; i <=movieNum; i++ ){
+//     if(favMovie === 'intersteller'){
+//         image = image + '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr3avP9gpf3XDKfaKkcSvlOMDvSHHIVPsyiw&usqp=CAU"/>';
+//     }else if(favMovie === 'inciption'){
+//         image = image + '<img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg"/>';
+//     }
+// }
+// console.log(image);
+// document.write(image); // to show the image!
+// document.write(' Your image is repated ' , movieNum , ' times');
+function sum() {
+var a = Number(prompt("Enter first number"));
+var b = Number(prompt("Enter second number"));
+alert(a + b);
+}
+sum();
