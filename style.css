@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(87, 74, 74);
+    margin: 0%;
+}
+
+header {
+    background-color: rgb(36, 34, 53);
+    color: rgba(213, 214, 221, 0.917);
+    height: 75px;
+   
+
+}
+
+header nav{ 
+    float: right;
+    width: 25%;
+    margin-top: 12px;
+}
+
+header h1 { 
+    float: left;
+    margin: 15px 0 0 1%;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 15%;
+
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#first {
+    width: 20%;
+    height: 200px;
+    background-color: rgb(102, 70, 70);
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0px 60px 38%;
+}
+
+#first h3 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: rgb(154, 247, 255);
+}
+#first p{
+    font-weight: bold;
+    font-size: large;
+    color:rgba(211, 255, 224, 0.917)
+}
+
+
+#second{
+    background-color: rgba(115, 119, 103, 0.5);
+    color: rgba(235, 223, 223, 0.917);
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 40%;
+    margin-left:100px;
+}
+.container p {
+    font-size: x-large;
+    color: white;
+}
+
+.container img {
+    height: 200px;
+    width: 200px;
+}
+
+footer{
+    height: 99px;
+    background-color:   rgb(87, 74, 74);
+    color: rgba(235, 223, 223, 0.917);
+    margin-top: 0px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 100px;
+    
+}

@@ -2,56 +2,59 @@
  <html>
 <head>
 <title>Movies world</title>
-
+<link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: sandybrown;">
+<body>
 <header>
-<h1 style="text-align: center;">Movies World</h1>
+<h1>Movies World</h1>
 
-<div style="border: 2px outset red; background-color: lightblue; text-align: center;">
-    <!-- <h3 style="color: red;">Welcome</h3> -->
     <nav>
         <ul>
-        <li style="display:inline-block; margin: 50px;"><a href="https://www.google.com/" target="_blank">home</a></li>
-        <li style="display:inline-block; margin: 50px;"><a href="aboutus.html" target="_blank">about</a></a></li>
-        <li style="display:inline-block; margin: 50px;"><a href="https://www.google.com/" target="_blank">Choose</a></li>
+        <li ><a href="https://www.google.com/" target="_blank">home</a></li>
+        <li ><a href="aboutus.html" target="_blank">about</a></a></li>
+        <li ><a href="https://www.google.com/" target="_blank">Choose</a></li>
       
         </ul>
        </nav>
-</div>
 </header>
 <!--to change bg image-->
 
-<br><br>
-<b style="color: blue;">Insert image url to change imagebackground :</b>
+<!-- <br><br>
+<b>Insert image url to change imagebackground :</b>
 <input type="text" id="bgchanger" placeholder="Change Background Add URL" />
  <input type="button" onclick="changebackground();" value="Change!" />
     &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!--to change bg color-->
-<b style="color: blue;">Insert color name to change background color :</b>
+to change bg color
+<b>Insert color name to change background color :</b>
 
  <input type="text" name="color" size="20" id="color" value=""/>
-   <button type="button">Submit</button>
+   <button type="button">Submit</button> -->
 
-<script src="app.js"></script>
+<!-- <script src="app.js"></script> -->
 <main>
 
 <!-- <input id="text1" placeholder="Choose you fav. Movie">
 <br><br>
 <button onclick="fn1()" id="btn1">Submit</button> -->
+  <section id="first">
+    <h3>Movies Show</h3>
+    <p>Check below amazing Movies</p>
+     </section>
 
-
-  
-    <div style="text-align: center;">
-    <h3>Intersteller</h3>
-    <img src="https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Ffansided.com%2Ffiles%2F2020%2F07%2FMV5BMjA3NTEwOTMxMV5BMl5BanBnXkFtZTgwMjMyODgxMzE%40._V1_SX1500_CR001500999_AL_-850x560.jpg"/>
-  <h2>John Q</h2>
-  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/John_Q_film_poster.jpg/220px-John_Q_film_poster.jpg"/>
-</div>
+     <section id="second">
+      <div class="container">
+      <p>Intersteller<p>
+      <img src="https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Ffansided.com%2Ffiles%2F2020%2F07%2FMV5BMjA3NTEwOTMxMV5BMl5BanBnXkFtZTgwMjMyODgxMzE%40._V1_SX1500_CR001500999_AL_-850x560.jpg"/>
+      </div>
+      <div class="container">
+     <p>John Q</p>
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/90/John_Q_film_poster.jpg/220px-John_Q_film_poster.jpg"/>
+    </div >
+  </section>
 </main>
 <footer>
-<p>&copy;copyright 2021</p>
+      <p>&copy;copyright 2021</p>
 </footer>
  
 </body>
- </html>
+</html>
